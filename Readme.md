@@ -5,27 +5,27 @@ This project demonstrates a streaming application using FastAPI, Spring Boot, an
 
 ## Project Structure
 
-websocket-token-streaming/
-├── backend/
-│   ├── springboot/
-│   │   ├── src/
-│   │   │   ├── main/
-│   │   │   │   ├── java/com/example/websocket/
-│   │   │   │   │   ├── WebSocketHandler.java
-│   │   │   │   └── resources/
-│   │   │   │       ├── messages.txt
-│   └── fastapi/
-│       ├── main.py
-│       ├── responses.txt
-├── frontend/
-│   ├── websocket-client/
-│   │   ├── src/
-│   │   │   ├── App.js
-│   │   ├── public/
-│   │   │   └── index.html
-│   ├── package.json
-│   ├── package-lock.json
-├── README.md
+    websocket-token-streaming/
+    ├── backend/
+    │   ├── springboot/
+    │   │   ├── src/
+    │   │   │   ├── main/
+    │   │   │   │   ├── java/com/example/websocket/
+    │   │   │   │   │   ├── WebSocketHandler.java
+    │   │   │   │   └── resources/
+    │   │   │   │       ├── messages.txt
+    │   └── fastapi/
+    │       ├── main.py
+    │       ├── responses.txt
+    ├── frontend/
+    │   ├── websocket-client/
+    │   │   ├── src/
+    │   │   │   ├── App.js
+    │   │   ├── public/
+    │   │   │   └── index.html
+    │   ├── package.json
+    │   ├── package-lock.json
+    ├── README.md
 
 
 ## Features
@@ -38,7 +38,7 @@ websocket-token-streaming/
 
 4. **Letter by Letter Streaming**: Responses are streamed letter by letter to the frontend.
 
-5.** React Frontend**: Interactive user interface to send messages and display responses.
+5.**React Frontend**: Interactive user interface to send messages and display responses.
 
 
 ## Prerequisites
