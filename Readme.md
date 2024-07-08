@@ -6,29 +6,36 @@ This project demonstrates a streaming application using FastAPI, Spring Boot, an
 ## Project Structure
 
     websocket-token-streaming/
-    
     ├── backend/
-    
     │   ├── springboot/
-    
     │   │   ├── src/
     │   │   │   ├── main/
     │   │   │   │   ├── java/com/example/websocket/
     │   │   │   │   │   ├── WebSocketHandler.java
+    │   │   │   │   │   ├── Application.java
+    │   │   │   │   │   ├── WebSocketConfig.java
+    │   │   │   │   │   ├── config/
+    │   │   │   │   │   │   └── WebConfig.java
     │   │   │   │   └── resources/
     │   │   │   │       ├── messages.txt
+    │   │   ├── pom.xml
     │   └── fastapi/
     │       ├── main.py
     │       ├── responses.txt
+    │       ├── requirements.txt
     ├── frontend/
     │   ├── websocket-client/
     │   │   ├── src/
     │   │   │   ├── App.js
+    │   │   │   ├── App.css
+    │   │   │   ├── index.js
+    │   │   │   ├── index.css
     │   │   ├── public/
     │   │   │   └── index.html
     │   ├── package.json
     │   ├── package-lock.json
     ├── README.md
+
 
 
 ## Features
