@@ -6,8 +6,11 @@ This project demonstrates a streaming application using FastAPI, Spring Boot, an
 ## Project Structure
 
     websocket-token-streaming/
+    
     ├── backend/
+    
     │   ├── springboot/
+    
     │   │   ├── src/
     │   │   │   ├── main/
     │   │   │   │   ├── java/com/example/websocket/
