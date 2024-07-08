@@ -1,0 +1,5 @@
+1, Hello! How can I assist you today?
+2, I'm just a program, but thanks for asking!
+3, Goodbye! Have a great day.
+4, I'm sorry, I didn't understand that. Can you please clarify?
+5, Good morning! What can I do for you?
